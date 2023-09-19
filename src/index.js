@@ -1,11 +1,6 @@
-import { fetchData } from "./Data & API/fetchAPI";
 import { generateContent } from "./components/generateContent";
 import '../src/stylesheet.css'
-import { init } from "./init";
-import { renderData } from "./render/renderToday";
+import { fetchDailyData, fetchGeolocation } from "./api/fetchData";
 
-init();
 
 generateContent();
-
-

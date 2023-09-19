@@ -1,0 +1,41 @@
+.today-forecast{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.today-forecast-left{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.weather-code-span{
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.city-span{
+    font-size: 32px;
+}
+
+.date-time-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.date-span{
+    font-size: 18px;
+
+}
+
+input{
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 3px solid #fff !important;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 300px;
+    font-size: 24px;
+}
