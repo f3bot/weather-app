@@ -35,51 +35,51 @@ const findMatch = (value) => {
 const processCodesIcons = (icon, code) => {
   switch (code) {
     case 0:
-      icon.src = "../src/assets/codeIcons/ClearSky.svg";
+      icon.src = "./../src/assets/codeIcons/ClearSky.svg";
       break;
     case 1:
-      icon.src = "../src/assets/codeIcons/Mostly Clear.svg";
+      icon.src = "./../src/assets/codeIcons/Mostly Clear.svg";
       break;
     case 2:
-      icon.src = "../src/assets/codeIcons/Partly Cloudy.svg";
+      icon.src = "./../src/assets/codeIcons/Partly Cloudy.svg";
       break;
     case 3:
-      icon.src = "../src/assets/codeIcons/Cloudy.svg";
+      icon.src = "./../src/assets/codeIcons/Cloudy.svg";
       break;
     case 45:
     case 48:
-      icon.src = "../src/assets/codeIcons/Fog.svg";
+      icon.src = "./../src/assets/codeIcons/Fog.svg";
       break;
     case 51:
     case 53:
     case 55:
     case 56:
     case 57:
-      icon.src = "../src/assets/codeIcons/Drizzle.svg";
+      icon.src = "./../src/assets/codeIcons/Drizzle.svg";
       break;
     case 61:
     case 63:
     case 66:
-      icon.src = "../src/assets/codeIcons/Light Rain.svg";
+      icon.src = "./../src/assets/codeIcons/Light Rain.svg";
       break;
     case 65:
     case 67:
-      icon.src = "../src/assets/codeIcons/Heavy Rain.svg";
+      icon.src = "./../src/assets/codeIcons/Heavy Rain.svg";
       break;
     case 71:
     case 73:
     case 75:
     case 77:
-      icon.src = "../src/assets/codeIcons/Light Snow.svg";
+      icon.src = "./../src/assets/codeIcons/Light Snow.svg";
       break;
     case 80:
     case 81:
     case 82:
-      icon.src = "../src/assets/codeIcons/Light Rain.svg";
+      icon.src = "./../src/assets/codeIcons/Light Rain.svg";
       break;
     case 85:
     case 86:
-      icon.src = "../src/assets/codeIcons/Light Snow Showers.svg";
+      icon.src = "./../src/assets/codeIcons/Light Snow Showers.svg";
   }
 };
 

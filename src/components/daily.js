@@ -74,10 +74,10 @@ const generateRight = (parent) => {
 
   const text = ["Feels like", "Humidity", "Chance of Rain", "Wind Speed"];
   const icons = [
-    "../src/assets/right/feelslike.svg",
-    "../src/assets/right/moisture.svg",
-    "../src/assets/right/rain.svg",
-    "../src/assets/right/WIND.svg",
+    "./../src/assets/right/feelslike.svg",
+    "./../src/assets/right/moisture.svg",
+    "./../src/assets/right/rain.svg",
+    "./../src/assets/right/WIND.svg",
   ];
 
   const classLists = [
