@@ -3,17 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://f3bot.github.io/weather-app",
   "scripts": {
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "deploy": "npm run build && gh-pages -d dist",
+    "build": "webpack --config webpack.config.js"
+    
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.8.1",
+    "gh-pages": "^6.0.0",
     "style-loader": "^3.3.3",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
   }
+  
 }

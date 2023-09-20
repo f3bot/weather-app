@@ -8,7 +8,6 @@ const generateWeekly = (parent) => {
     const card = document.createElement("div");
     card.classList.add("weekly-card");
     card.setAttribute("id", i);
-    addWeeklyListener(card);
 
     const dayOfWeek = document.createElement("span");
     dayOfWeek.classList.add("dayOfWeek");
