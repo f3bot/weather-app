@@ -1,6 +1,9 @@
-import { generateContent } from "./components/generateContent";
-import '../src/stylesheet.css'
-import { fetchDailyData, fetchGeolocation } from "./api/fetchData";
 
+import "../src/stylesheet.css";
+import { init } from "./init";
+import { changeUnitsListener } from "./components/daily";
 
-generateContent();
+init();
+
+changeUnitsListener(document.querySelector(".change-units-btn"));
+

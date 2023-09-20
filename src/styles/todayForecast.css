@@ -1,41 +1,202 @@
-.today-forecast{
-    display: flex;
-    justify-content: space-between;
-    padding: 5%;
+.today-forecast {
+  margin: 3.5%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.today-forecast-left{
-    display: flex;
-    flex-direction: column;
-
+.today-forecast-left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.weather-code-span{
-    font-size: 54px;
-    font-weight: 400;
+.weather-code-span {
+  font-size: 4em;
+  font-weight: 400;
 }
 
-.city-span{
-    font-size: 32px;
+.city-span {
+  font-size: 1.75em;
 }
 
-.date-time-div{
-    display: flex;
-    flex-direction: column;
+.date-time-div {
+  display: flex;
+  flex-direction: column;
 }
 
-.date-span{
-    font-size: 18px;
-
+.date-span {
+  font-size: 1.25em;
 }
 
-input{
-    outline: none;
-    background: none;
-    border: none;
-    border-bottom: 3px solid #fff !important;
-    color: rgb(255, 255, 255);
-    height: 40px;
-    width: 300px;
-    font-size: 24px;
+.time-span {
+  font-size: 1.1em;
+}
+
+.today-temperature {
+  font-size: 7.5em;
+  font-weight: 700;
+}
+
+.weather-code-icon {
+  width: 148px;
+  height: 148px;
+  padding-top: 25px;
+}
+
+input {
+  outline: none;
+  background: none;
+  border: none;
+  border-bottom: 3px solid #fff !important;
+  color: rgb(255, 255, 255);
+  height: 40px;
+  width: 300px;
+  font-size: 24px;
+  padding-top: 35px;
+}
+
+.today-forecast-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.today-right-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.today-forecast-right img {
+  width: 48px;
+  height: 48px;
+}
+
+.today-right-container p {
+  font-size: 24px;
+}
+
+.today-right-container span {
+  font-size: 20px;
+}
+
+.change-units-btn {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1500px) {
+  .weather-code-span {
+    font-size: 3.25em;
+  }
+
+  .city-span {
+    font-size: 1.25em;
+  }
+
+  .date-span {
+    font-size: 1em;
+  }
+  .time-span {
+    font-size: 0.8em;
+  }
+
+  .weather-code-icon {
+    height: 120px;
+    width: 120px;
+  }
+
+  input {
+    font-size: 20px;
+    width: 250px;
+  }
+
+  .today-forecast-right img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .today-right-container p {
+    font-size: 20px;
+  }
+
+  .today-right-container span {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .today-temperature {
+    font-size: 5em;
+  }
+
+  .weather-code-span {
+    font-size: 3em;
+  }
+
+  .city-span {
+    font-size: 1em;
+  }
+
+  .date-span {
+    font-size: 0.8em;
+  }
+  .time-span {
+    font-size: 0.65em;
+  }
+
+  input {
+    width: 200px;
+  }
+
+  .today-forecast-right img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .today-right-container p {
+    font-size: 16px;
+  }
+
+  .today-right-container span {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .today-temperature {
+    font-size: 3.5em;
+  }
+
+  .weather-code-span {
+    font-size: 2.5em;
+  }
+
+  .city-span {
+    font-size: 0.75em;
+  }
+
+  .date-span {
+    font-size: 0.7em;
+  }
+  .time-span {
+    font-size: 0.65em;
+  }
+  input {
+    width: 175px;
+  }
+
+  .weather-code-icon {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .today-forecast {
+    margin: 2%;
+  }
 }

@@ -1,0 +1,147 @@
+.weekly-forecast {
+  margin: 3.5%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.weekly-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.weekly-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dayOfWeek {
+  font-size: 32px;
+  padding-bottom: 25px;
+  z-index: 2;
+}
+
+.realTemp {
+  font-size: 24px;
+  z-index: 2;
+}
+
+.apparent-temp {
+  font-size: 16px;
+  z-index: 2;
+}
+
+.weekly-ico {
+  height: 50px;
+  width: 50px;
+  z-index: 2  ;
+}
+
+.temp-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.weekly-card:hover
+{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1500px) {
+  .dayOfWeek {
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+
+  .realTemp {
+    font-size: 20px;
+  }
+
+  .apparent-temp {
+    font-size: 16px;
+  }
+
+  .weekly-ico {
+    height: 42px;
+    width: 42px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .weekly-forecast {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .weekly-card {
+    flex-direction: row;
+    align-items: center;
+    width: 35%;
+    justify-content: space-between;
+  }
+
+  .weekly-info-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .dayOfWeek {
+    padding-bottom: 0 !important;
+    font-size: 24px;
+  }
+
+  .realTemp {
+    font-size: 16px;
+  }
+
+  .temp-container {
+    flex-direction: column;
+    gap: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .weekly-card {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .weekly-card {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .dayOfWeek {
+    font-size: 20px;
+  }
+
+  .weekly-card {
+    width: 80%;
+  }
+
+  .realTemp {
+    font-size: 13px;
+  }
+
+  .apparent-temp {
+    font-size: 11px;
+  }
+
+  .weekly-card img {
+    height: 35px;
+    width: 35px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .weekly-card {
+    width: 90%;
+  }
+}

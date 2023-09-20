@@ -72,8 +72,23 @@ function formatDate(inputDate) {
 const formatTime = (inputDate) => {
   inputDate = inputDate.slice(11);
 
-
-
   return inputDate;
 };
-export { changeLastTwoCharacters, formatDate, formatTime };
+
+const formatDay = (inputDate) => {
+  const dateString = inputDate;
+  const date = new Date(dateString);
+  const daysOfWeek = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  const dayOfWeek = daysOfWeek[date.getDay()];
+
+  return dayOfWeek;
+};
+export { changeLastTwoCharacters, formatDate, formatTime , formatDay};
