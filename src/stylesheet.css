@@ -20,7 +20,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url(../src/assets/background_main.jpg);
+  background-image: url(../assets/background_main.jpg);
   background-position: center calc(50% + 10px);
   background-repeat: no-repeat;
   background-size: cover;
