@@ -11,12 +11,12 @@
 }
 
 .weather-code-span {
-  font-size: 4em;
+  font-size: 3.5em;
   font-weight: 400;
 }
 
 .city-span {
-  font-size: 1.75em;
+  font-size: 1.25em;
 }
 
 .date-time-div {
@@ -25,15 +25,15 @@
 }
 
 .date-span {
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 .time-span {
-  font-size: 1.1em;
+  font-size: 0.8em;
 }
 
 .today-temperature {
-  font-size: 7.5em;
+  font-size: 6em;
   font-weight: 700;
 }
 
